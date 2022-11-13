@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CU Chefs </title>
+    <link rel="stylesheet" href="K_Easy.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="Font/webfontkit-20221031-131755/stylesheet.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav>      
+        <ul class="navbar">
+            <!--Logo, heading, table-->
+            <img class="logo" src="Images/cheflogo1.png" alt="logo">   
+
+            <!--Homepage-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Home</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Home</a>
+            </div>   
+            </li>
+
+            <!--Breakfast page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Breakfast</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>
+            </li>   
+
+            <!--Lunch page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="K_Lunch.html">Lunch</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_Easy.html">Easy</a>
+                <a href="K_Medium.html">Medium</a>
+                <a href="K_Hard.html">Hard</a>
+            </div>
+            </li>
+
+            <!--Dinner page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dinner</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li> 
+
+            <!--Desserts page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dessert</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li>
+
+            <!--Community page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Community</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_StudentSubmission.html">Student Submissions</a>
+                <a href="">Q&A</a>
+            </div>    
+            </li>
+        </ul>
+	</nav>
+
+    <article>    
+        <h1> Easy Lunch Recipes</h1>
+        <!--3 Recipes including: Table, Images, Links, Ingredients (unordered, nested), Intructions (ordered), Video Tutorial-->
+
+        <section>
+            <h2>Recipe: Simple Cheesy Pesto Sandwich</h2>
+
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>15-20 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form> <br/>
+
+            <img class="Easyfoods" src="Images/pestosandwich.jpg" alt=pesto width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa46640%2Fturkey-mozzarella-kale-pesto-panini-recipe%2F&psig=AOvVaw0Ys5Ec5KRVajDq4GN2h9BU&ust=1665064903207000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOjjnaOgyfoCFQAAAAAdAAAAABAD">Image Source</a>
+            
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>Pesto</li>
+                <li>Bread</li>
+                <li>Tomatoes</li>
+                <li>Lettuce or any greens of your choice</li>
+                <li>Cheese</li>
+                    <ul>
+                        <li>Mozzarella</li>
+                        <li>Parmesan</li>
+                    </ul>
+                <li>1 Egg</li>
+                <li>Salt</li>
+                <li>Pepper</li>
+                <li>Turkey Meat</li>
+            </ul>
+
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>Coat 2 pieces of bread in Pesto</li>
+                <li>Layer Mozzarella on top of bread</li>
+                <li>Coat pan with oil then cook egg for prefered time</li>
+                <li>Season with salt and pepper while waiting for it to cook</li>
+                <li>Once egg is done cooking, put aside and pan fry bread</li>
+                <li>When Mozzarella begins to melt, layer meat on top of toast</li>
+                <li>Remove from pan, place on plate and layer egg on top</li>
+                <li>(optional) cut up some slices of tomato or lettuce and layer in sandwich</li>
+                <li>Put it all together and dig in!</li>
+            </ol>
+
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/UnxeSnOKXB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br/>
+                <a class="vidlinks" href="https://www.youtube.com/embed/UnxeSnOKXB8">Video Source</a>
+            </div>
+        </section><br />
+
+        <aside>
+            <p id="bonustext"><b>Don't have bread? Use pasta!</b></p><br />
+            <div>
+                <video id="bonusvideo" width="400" controls>
+                    <source src="Videos/pestopasta.mp4" type="video/mp4">
+                </video><br/>
+                <a class="bonuslink" href="https://www.pexels.com/search/videos/pesto/">Video Source</a>
+            </div>
+        </aside><br />
+
+        <section>
+            <h2>Recipe: Quick Chili</h2>
+
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>10 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form><br />
+
+            <img class="Easyfoods" src="Images/Chili.jpg" alt=Chili width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thewholesomedish.com%2Fthe-best-classic-chili%2F&psig=AOvVaw15W6rDdQesYoOs3TPZih_s&ust=1665178283623000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJipj9TGzPoCFQAAAAAdAAAAABAY">Image Source</a>
+          
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>1 pound browned hamburger (optional)</li>
+                <li>1 can chili beans</li>
+                <li>1 can white cannelli beans</li>
+                <li>1 package chil seasoning</li>
+                <li>1 can chilli ready tomatoes</li>
+                <li>2 tablespoons brown sugar</li>
+                <li>1/2 chopped green pepper</li>
+                <li>1/2 Vidalia onion</li>
+                <li>Additional:</li>
+                    <ul>
+                        <li>Red peppers</li>
+                        <li>Jalapeno</li>
+                        <li>Cumin</li>
+                    </ul>
+            </ul>
+
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>Brown hamburger and/or onions and green pepper. If using hamburger, drain excess fat in a skillet</li>
+                <li>In a medium saucepan, combine beans, hamburger (optional), seasonings, tomatoes, brown sugar, onion and green pepper</li>
+                <li>Heat on medium until chili begins to boil. Lower heat and let chili simmer</li>
+                <li>Dig in!</li>
+            </ol>
+            <a class="recipelinks" href="https://www.pfw.edu/dotAsset/e13434b5-f486-44c7-9181-3e53dc8f307b">Recipe Link</a>
+      
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/8h7YSpu98Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br/>
+                <a class="vidlinks" href="https://www.youtube.com/watch?v=8h7YSpu98Uc">Video Source</a>
+            </div> 
+        </section><br />
+
+        <section>
+            <h2>Recipe: Spinach Chicken Salad</h2>
+
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>10-15 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form><br/>
+
+            <img class="Easyfoods" src="Images/chickensalad.jpg" alt=chickensalad width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa46640%2Fturkey-mozzarella-kale-pesto-panini-recipe%2F&psig=AOvVaw0Ys5Ec5KRVajDq4GN2h9BU&ust=1665064903207000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOjjnaOgyfoCFQAAAAAdAAAAABAD">Image Source</a>
+            
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>4 cups baby spinach</li>
+                <li>1-2 grilled boneless, skinless hicken breasts</li>
+                <li>2 tablespoons italian salad dressing</li>
+                <li>1 teaspoon sugar</li>
+            </ul>
+
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>Grill chicken breasts in a George Forman grill or on the stove top with non-stick cooking spray or olive oil</li>
+                <li>While chicken is cooking, combine sugar and dressing. Toss together with spinach</li>
+                <li>Roughly chop chicken and add to salad</li>
+                <li>Dig in!</li>
+            </ol>
+
+            <a class="recipelinks" href="https://www.pfw.edu/dotAsset/e13434b5-f486-44c7-9181-3e53dc8f307b">Recipe Link</a>
+          
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/cSAGdGSdE6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+                <a class="vidlinks" href="https://www.youtube.com/watch?v=cSAGdGSdE6k">Video Source</a>
+            </div>
+        </section><br />
+    </article>    
+
+    <!--Personal Rating and Suggestions-->
+    <article>
+        <form class="personal-rating" action="handle_data.php">
+            <!--Personal Rating: Form, Drop-down list, Input list: Scale, Input Type: Radio, Checkbox-->
+            <h2>Personal Rating </h2>
+            <p>On a scale of 1-5, how easy were these recipes to follow?</p>
+                <input list="scale">
+                <datalist id="scale">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                </datalist><br />
+            
+            <p>Rate Recipes in terms of time efficiency:</p>
+                <input type="radio" name="time" value="longx2" /> Too Long <br />
+                <input type="radio" name="time" value="long" /> Long <br />
+                <input type="radio" name="time" value="ok" /> Decent <br>
+                <input type="radio" name="time" value="fast" /> Quick <br><br />
+            
+            <p>Check all that apply:</p>
+                <input type="checkbox" name="outcome" value="again" /> I would make one of these recipes again <br />
+                <input type="checkbox" name="outcome" value="great" /> The end result tasted great <br />
+                <input type="checkbox" name="outcome" value="recommend" /> I would recommend this site to a friend <br />
+                <input type="checkbox" name="outcome" value="suggest" /> I have suggestions that would improve these recipes <br /><br />
+           
+            <p>Rate your overall experience using these recipes</p>
+                <div>
+                    <p>Low
+                        <input type="range" id="rating" name="rating" value="lowhigh" />High <br />
+                    </p>
+                </div>
+           
+            <p>How confident are you in your cooking skills now?</p>
+                <select class="survey" name="Skill">
+                    <option value="not confident">Not confident at all</option>
+                    <option value="ok">Getting the hang of it</option>
+                    <option value="confident">Decently confident</option>
+                    <option value="very confident">Very confident</option>
+                </select><br/><br/>
+       
+            <p class="sgst"><b>Suggestions? </b></p>
+                <div>
+                    <textarea name="message" row="20" cols="30"></textarea><br/><br/>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <button type="button" onclick="alert('What did the caveman order at the cafeteria?... a club sandwich!')">Click me for a joke</button><br/>
+                </div>
+        </form>
+    </article>
+
+    <footer>
+        <p>Copyright © 2022 CU Chefs. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

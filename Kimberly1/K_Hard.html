@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CU Chefs </title>
+    <link rel="stylesheet" href="K_Hard.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="Font/webfontkit-20221031-131755/stylesheet.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav>      
+        <ul class="navbar">
+            <!--Logo, heading, table-->
+            <img class="logo" src="Images/cheflogo1.png" alt="logo">   
+
+            <!--Homepage-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Home</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Home</a>
+            </div>   
+            </li>
+
+            <!--Breakfast page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Breakfast</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>
+            </li>   
+
+            <!--Lunch page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="K_Lunch.html">Lunch</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_Easy.html">Easy</a>
+                <a href="K_Medium.html">Medium</a>
+                <a href="K_Hard.html">Hard</a>
+            </div>
+            </li>
+
+            <!--Dinner page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dinner</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li> 
+
+            <!--Desserts page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dessert</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li>
+
+            <!--Community page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Community</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_StudentSubmission.html">Student Submissions</a>
+                <a href="">Q&A</a>
+            </div>    
+            </li>
+        </ul>
+	</nav>
+
+    <article>
+        <h1> Hard Lunch Recipes</h1>
+        <!--3 Recipe Sections including: Table, Images, Links, Ingredients (unordered, nested), Intructions (ordered), Video Tutorial-->
+        
+        <section>
+            <h2>Recipe: Pumpkin Clam Chowder</h2>
+
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>15-20 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form> <br/>
+
+            <img class="imgfoods" src="Images/clamchowder.jpg" alt=clam width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.delicious.com.au%2Frecipes%2Ffish-clam-chowder%2Ff2ce9b39-c26a-4212-8755-b18b4ef88579&psig=AOvVaw1A0whMyDSTsS6qJyKih-PS&ust=1665065055006000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJCKm-2gyfoCFQAAAAAdAAAAABAD">Image Source</a>
+    
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>6 bacon strips chopped</li>
+                <li>1 medium fennel bulb, chopped, fronds reserved</li>
+                <li>1 medium onion</li>
+                <li>1/2 cup chardonnay or clam juice</li>
+                <li>5 bottles (8oz each) of clam juice divided</li>
+                <li>4 cups of cut 1/2 inch cube of either:
+                    <ul>
+                        <li>Fresh pumpkin</li>
+                        <li>Butternet squash</li>
+                    </ul>
+                <li>2 medium potatos pelled and cut into small 1/2 inch cubes</li>
+                <li>1/3 cup all-purpose flour</li>
+                <li>2 cans (10oz each) whole baby clams, drained</li>
+                <li>1-1/2 cups heavy whipping cream</li>
+                <li>Either:
+                    <ul>
+                        <li>1 tablespoon minced fresh tarragon</li>
+                        <li>1 teaspoon dried tarragon</li>
+                    </ul> 
+                <li>1/2 teaspoon salt</li>
+                <li>1/2 teaspoon pepper</li>
+            </ul>
+        
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>In an oven, cook bacon over medium heat until crisp</li>
+                <li>Remove and place bacon on a paper towel to rest</li>
+                <li>Cook and stir chopped fennel and onion in the bacon drippings over medium heat till tender (8-10 mins) </li>
+                <li>Add chardonnay to pan and increase to medium-high heat</li>
+                <li>Cook 1-2 minutes while stiring</li>
+                <li>Add 4-1/2 cups of clam juice, the pumpkin and potatoes</li>
+                <li>Once it comes to a boil, reduce the heat and let simmer with the lid uncovered until tender, stir occasionally (15-20 mins)</li>
+                <li>Whisk flour and remaining 1/2 cup of clam juice and stir into pan</li>
+                <li>Stir until boiling and until thickened (2-3 mins)</li>
+                <li>Stir in clams, cream, tarragon, salt, and pepper</li>
+                <li>Let simmer in heat (Do not allow to boil)</li>
+                <li>Serve in bowl and top with fresh chopped fennel fronds and chopped bacon</li>
+                <li>Dig in!</li>
+            </ol>
+            <a class="recipelinks" href="https://www.tasteofhome.com/collection/grandmas-best-breakfast-recipes/">Recipe Link</a>
+           
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/P90jTVaA6YU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+                <a class="vidlinks" href="https://www.youtube.com/embed/P90jTVaA6YU">Video Source</a>
+            </div>
+        </section><br />
+        
+        <section>
+            <h2>Recipe: Open-Faced Pizza Burgers</h2>
+            
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>10 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form><br />
+           
+            <img class="imgfoods" src="Images/pizzaburger.jpg" alt=pizzaburger width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.delish.com%2Fcooking%2Frecipe-ideas%2Frecipes%2Fa47675%2Fpizza-burgers-recipe%2F&psig=AOvVaw127OywdV6FrqTeQz1DLPOA&ust=1665188104626000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIjphZ7rzPoCFQAAAAAdAAAAABAQ">Image Source</a>
+            
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>1-1/2 pounds ground beef</li>
+                <li>1/4 cup chopped onion</li>
+                <li>1 can (15 ounces) pizza sauce</li>
+                <li>1 can (4 ounces) mushroom stems and pieces, drained</li>
+                <li>1 tablespoon sugar</li>
+                <li>1/2 teaspoon dried oregano</li>
+                <li>6 hamburger buns, split and toasted</li>
+                <li>1-1/2 cups shredded part-skim mozzarella cheese</li>
+            </ul>
+            
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>In a large cast-iron or other heavy skillet, cook beef and onion over medium heat until the meat is no longer pink, 3-5 minutes, breaking into crumbles</li>
+                <li>Drain. Stir in the pizza sauce, mushrooms, sugar and oregano; mix well</li>
+                <li>Spoon onto buns; sprinkle with mozzarella cheese</li>
+                <li>Place on ungreased baking sheets. Broil 4 in. from the heat until cheese is melted, 2 minutes</li>
+                <li>Freeze option: Place the split and toasted buns on a baking sheet. Spoon the meat mixture onto buns; freeze for 1 hour. Transfer to freezer-safe airtight containers</li>
+                <li>Dig in!</li>
+            </ol>
+            <a class="recipelinks" href="https://www.tasteofhome.com/collection/grandmas-best-breakfast-recipes/">Recipe Link</a>
+           
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/Wa2yOtH2S4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+                <a class="vidlinks" href="https://www.youtube.com/watch?v=Wa2yOtH2S4I">Video Source</a>
+            </div>
+        </section><br />
+
+        <section>
+            <h2>Recipe: Grilled Steak Bruschetta Salad</h2>
+            
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>10-15 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form><br/>
+            
+            <img class="imgfoods" src="Images/bruschetta.jpg" alt=bruschetta width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Femeals.com%2Frecipes%2Frecipe-49171-315948-Bruschetta-Steak-Salad&psig=AOvVaw193pfxMwRJPkWqi-CjCEz-&ust=1665188226923000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLjJg9jrzPoCFQAAAAAdAAAAABAF">Image Source</a>
+            
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>1/2 pound beef tenderloin steaks (1 inch thick)</li>
+                <li>1/4 teaspoon salt</li>
+                <li>1/8 teaspoon pepper</li>
+                <li>2 slices Italian bread (1/2 inch thick)</li>
+                <li>1 cup of either:</li>
+                    <ul>
+                        <li>Fresh arugula</li>
+                        <li>Fresh baby spinach</li>
+                    </ul> 
+                <li>1/3 cup jarred or prepared bruschetta topping</li>
+                <li>1/3 cup blue cheese salad dressing</li>
+            </ul>
+            
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>Sprinkle steaks with salt and pepper</li>
+                <li>Grill, covered, over medium heat until meat reaches desired doneness (for medium-rare, a thermometer should read 135°; medium, 140°; medium-well, 145°), 6-8 minutes on each side</li>
+                <li>Let stand for 5 minutes</li>
+                <li>Grill bread, covered, until toasted, 1-2 minutes on each side; place on salad plates</li>
+                <li>Thinly slice steak; arrange over toast</li>
+                <li>Top with arugula and bruschetta topping. Drizzle with dressing</li>
+                <li>Dig in!</li>
+            </ol>
+            <a class="recipelinks" href="https://www.tasteofhome.com/collection/grandmas-best-breakfast-recipes/">Recipe Link</a>
+           
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/lzDI9fawicw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+                <a class="vidlinks" href="https://www.youtube.com/watch?v=lzDI9fawicw">Video Source</a>
+            </div>
+        </section><br />
+    </article>
+
+    <!--Personal Rating and Suggestions-->
+    <article>
+        <form class="personal-rating" action="handle_data.php">
+            <!--Personal Rating: Form, Drop-down list, Input list: Scale, Input Type: Radio, Checkbox-->
+            <h2>Personal Rating </h2>
+            <p>On a scale of 1-5, how easy were these recipes to follow?</p>
+                <input list="scale">
+                <datalist id="scale">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                </datalist><br />
+            
+            <p>Rate Recipes in terms of time efficiency:</p>
+                <input type="radio" name="time" value="longx2" /> Too Long <br />
+                <input type="radio" name="time" value="long" /> Long <br />
+                <input type="radio" name="time" value="ok" /> Decent <br>
+                <input type="radio" name="time" value="fast" /> Quick <br><br />
+            
+            <p>Check all that apply:</p>
+                <input type="checkbox" name="outcome" value="again" /> I would make one of these recipes again <br />
+                <input type="checkbox" name="outcome" value="great" /> The end result tasted great <br />
+                <input type="checkbox" name="outcome" value="recommend" /> I would recommend this site to a friend <br />
+                <input type="checkbox" name="outcome" value="suggest" /> I have suggestions that would improve these recipes <br /><br />
+           
+            <p>Rate your overall experience using these recipes</p>
+                <div>
+                    <p>Low
+                        <input type="range" id="rating" name="rating" value="lowhigh" />High <br />
+                    </p>
+                </div>
+           
+            <p>How confident are you in your cooking skills now?</p>
+                <select class="survey" name="Skill">
+                    <option value="not confident">Not confident at all</option>
+                    <option value="ok">Getting the hang of it</option>
+                    <option value="confident">Decently confident</option>
+                    <option value="very confident">Very confident</option>
+                </select><br/><br/>
+       
+            <p class="sgst"><b>Suggestions? </b></p>
+                <div>
+                    <textarea name="message" row="20" cols="30"></textarea><br/><br/>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <button type="button" onclick="alert('What did the caveman order at the cafeteria?... a club sandwich!')">Click me for a joke</button><br/>
+                </div>
+        </form>
+    </article>
+
+    <footer>
+        <p>Copyright © 2022 CU Chefs. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

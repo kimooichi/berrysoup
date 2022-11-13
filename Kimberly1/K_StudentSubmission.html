@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CU Chefs </title>
+    <link rel="stylesheet" href="K_StudentSubmission.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="Font/webfontkit-20221031-131755/stylesheet.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav>      
+        <ul class="navbar">
+            <!--Logo, heading, table-->
+            <img class="logo" src="Images/cheflogo1.png" alt="logo">   
+
+            <!--Homepage-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Home</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Home</a>
+            </div>   
+            </li>
+
+            <!--Breakfast page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Breakfast</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>
+            </li>   
+
+            <!--Lunch page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="K_Lunch.html">Lunch</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_Easy.html">Easy</a>
+                <a href="K_Medium.html">Medium</a>
+                <a href="K_Hard.html">Hard</a>
+            </div>
+            </li>
+
+            <!--Dinner page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dinner</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li> 
+
+            <!--Desserts page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dessert</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li>
+
+            <!--Community page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Community</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_StudentSubmission.html">Student Submissions</a>
+                <a href="">Q&A</a>
+            </div>    
+            </li>
+        </ul>
+	</nav>
+
+    <article>
+        <h1>Student Submissions</h1>
+        <p><b>Share your recipes with us!</b></p>
+
+        <div>
+            <img src="Images/studentfood.jpg" alt=student width="400" height="250"><br/>
+            <p><a class="link" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vector4free.com%2Ffree-vectors%2Fsharing-food&psig=AOvVaw16mjsK04ytnmZgsy2yVu3W&ust=1665065526238000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNimscyiyfoCFQAAAAAdAAAAABAD">Image Link</a></p>
+        </div><br/>
+           
+        <!--Textfield and form for user to submit their recipe ideas-->
+        <form action="action_page.php">
+            <h2> Submit link or recipe details here!</h2>
+                <div id="studentmsg">
+                    <textarea name="message" row="20" cols="30"></textarea><br /><br/>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset"><br />
+                </div>
+                
+                <!--Audio-->
+                <h3>A message from our staff:</h3>
+                <div class="staffmsg">
+                    <audio controls>
+                        <source src="Audio/femalethanks.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="staffmsg">
+                    <audio controls>
+                        <source src="Audio/malethanks.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <p>Audio from: <a class="link" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=99932">Pixabay</a> <a class="link" href="https://mixkit.co/free-sound-effects/thank-you/">Mixkit</a></p><br />
+            <p>For more information on Carleton Clubs and Student Society visit: <a class="link" href="https://admissions.carleton.ca/student-life/clubsandsocieties/">Carleton University</a></p>
+        </form>
+    </article>
+        
+    <footer>
+        <p>Copyright © 2022 CU Chefs. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

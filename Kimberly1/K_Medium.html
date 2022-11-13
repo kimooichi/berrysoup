@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CU Chefs </title>
+    <link rel="stylesheet" href="K_Medium.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="Font/webfontkit-20221031-131755/stylesheet.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav>      
+        <ul class="navbar">
+            <!--Logo, heading, table-->
+            <img class="logo" src="Images/cheflogo1.png" alt="logo">   
+
+            <!--Homepage-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Home</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Home</a>
+            </div>   
+            </li>
+
+            <!--Breakfast page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Breakfast</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>
+            </li>   
+
+            <!--Lunch page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="K_Lunch.html">Lunch</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_Easy.html">Easy</a>
+                <a href="K_Medium.html">Medium</a>
+                <a href="K_Hard.html">Hard</a>
+            </div>
+            </li>
+
+            <!--Dinner page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dinner</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li> 
+
+            <!--Desserts page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Dessert</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="">Easy</a>
+                <a href="">Medium</a>
+                <a href="">Hard</a>
+            </div>  
+            </li>
+
+            <!--Community page-->
+            <li class="dropdown">
+                <button class="dropbtn">
+                    <a href="">Community</a>
+                </button><br/>
+            <div class="dropdown-content">
+                <a href="K_StudentSubmission.html">Student Submissions</a>
+                <a href="">Q&A</a>
+            </div>    
+            </li>
+        </ul>
+	</nav>
+
+    <article>
+        <h1> Medium Lunch Recipes</h1>
+        <!--3 Recipes including: Table, Images, Links, Ingredients (unordered, nested), Intructions (ordered), Video Tutorial-->
+
+        <section>
+            <h2>Recipe: Air-fried Breaded Shrimp</h2>
+
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>15-20 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form> <br/>
+
+            <img class="imgfoods" src="Images/breadedshrimp.jpg" alt=shrimp width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cento.com%2Frecipes%2Fseafood%2Fpanko_breaded_shrimp.php&psig=AOvVaw2dTVQQ_gUg7o5eCL5948JY&ust=1665065012483000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLCfh9mgyfoCFQAAAAAdAAAAABAD">Image Source</a>
+         
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>1/2 cup all-purpose flour</li>
+                <li>1/2 teaspoon seafood seasoning</li>
+                <li>1/2 teaspoon dill weed</li>
+                <li>1/2 teaspoon pepper</li>
+                <li>1/2 cup milk</li>
+                <li>1 teaspoon hot pepper sauce</li>
+                <li>1 Egg</li>
+                <li>1 cup panko bread crumbs</li>
+                <li>1 pound uncooked shrimp, peeled</li>
+                <li>Cooking spray</li>
+                <li>(Optional)
+                    <ul>
+                        <li>Lemon wedges</li>
+                        <li>Seafood cocktail sauce</li>
+                    </ul>
+            </ul>
+
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>Preheat air fryer to 375 degrees</li>
+                <li>mix flour, seasoned salt, dill weed and pepper in a bowl</li>
+                <li>In a seperate bowl, whisk the egg, milk, and hot pepper sauce until combined</li>
+                <li>Place bread crumbs into another bowl </li>
+                <li>Dip and coat shrimp fully in flour mixture and then shake off excess</li>
+                <li>Dip shrimp itno egg mixture and then bread crumbs</li>
+                <li>Pat bread crumbs into shrimp</li>
+                <li>Place shrimps in a single layer in the air fryer after spraying coooking spray</li>
+                <li>Let rest until golden brown (3-4 minutes for each side)</li>
+                <li>Remove and let cool on a plate then dig in!</li>
+            </ol>
+            <a class="recipelinks" href="https://www.tasteofhome.com/collection/grandmas-best-breakfast-recipes/">Recipe Link</a>
+            
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/DIQ8cWtFdcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+                <a class="vidlinks" href="https://www.youtube.com/embed/DIQ8cWtFdcE">Video Source</a>
+            </div>
+        </section><br />
+
+        <section>
+            <h2>Recipe: Quick Chili</h2>
+
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>10 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form><br />
+
+            <img class="imgfoods" src="Images/Onion.jpg" alt=Onion width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foodnetwork.com%2Frecipes%2Fellie-krieger%2Foven-baked-onion-rings-recipe-1949784&psig=AOvVaw193JVEHt7GZtXaRkBFgdG1&ust=1665188492509000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKCc5dbszPoCFQAAAAAdAAAAABAE">Image Source</a>
+            
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>1 large onion</li>
+                <li>1/4 cup egg beaters</li>
+                <li>1/2 cup ctushed Fiber One cereal or bread crumbs</li>
+            </ul>
+
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>Preheat oven to 375 degrees. 
+                <li>Cut edges off onion and remove outer layer
+                    <ul>
+                        <li>Cut into 1/2 inch slices and separate into rings</li>
+                    </ul>
+                <li>Fill a small bowl with egg beaters</li>
+                <li>Using a blender, blend cereal until a crumb consistency and pour onto a small dish</li>
+                <li>Dip each ring into egg and coat with cereal or crumbs and place on a baking sheet with nonstick spray</li>
+                <li>Cook for 20-25 minutes flipping rings half way</li>
+                <li>Dig in!</li>
+            </ol>
+            <a class="recipelinks" href="https://www.pfw.edu/dotAsset/e13434b5-f486-44c7-9181-3e53dc8f307b">Recipe Link</a>
+            
+            <h3 id="tutorial">Video Tutorial:</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/9I0r4UNHc4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+                <a class= "vidlinks" href="https://www.youtube.com/watch?v=9I0r4UNHc4E">Video Source</a> 
+            </div>
+        </section><br />
+
+        <section>
+            <h2>Recipe: Couscous</h2>
+
+            <table>
+                <tr>
+                    <th>Price:</th>
+                    <th>Time:</th>
+                </tr>
+                <tr>
+                    <th>$</th>
+                    <th>10-15 mins</th>
+                </tr>
+            </table><br />
+
+            <form>
+                <p>Rate the dish for cost & time!</p>
+                <select class="Ratedish" name="rate">
+                    <option value="not good at all">1 star</option>
+                    <option value="ok">2 stars</option>
+                    <option value="good">3 stars</option>
+                    <option value="great">4 stars</option>
+                    <option value="amazing">5 stars</option>
+                </select><br />
+                <input class="button" type="submit" value="Submit">
+            </form><br/>
+
+            <img class="imgfoods" src="Images/couscous.jpg" alt=couscous width="400" height="250"><br/>
+            <a class="imglinks" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hiddenvalley.com%2Frecipe%2Fpearl-couscous-salad%2F&psig=AOvVaw3AOZrfYSvbZhH8reWowwsA&ust=1665188557620000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMCw3_XszPoCFQAAAAAdAAAAABAE">Image Source</a>
+     
+            <h3>Ingredients:</h3>
+            <ul class="Ingredients-list">
+                <li>1 cup of Couscous</li>
+                <li>1 cup of frozen peas and corn</li>
+                <li>1/2 cup of water or vegetable stock</li>
+                <li>Salt and pepper to taste</li>
+                <li>Optional:</li>
+                <ul>
+                    <li>Dash of hot sauce</li>
+                    <li>Sliced almonds as garnish</li>
+                </ul>
+            </ul>
+
+            <h3>Instructions:</h3>
+            <ol class="Instructions-list"> 
+                <li>Bring water or stock to boil in a saucepan. Stir in couscous and peas and carrots</li>
+                <li>Add salt and remove from heat</li>
+                <li>Let sit for 5 minutes then stir in black pepper and hot sauce</li>
+                <li>Dig in!</li>
+            </ol>
+            <a class="recipelinks" href="https://www.pfw.edu/dotAsset/e13434b5-f486-44c7-9181-3e53dc8f307b">Recipe Link</a>
+
+            <h3 id="tutorial">Video Tutorial</h3>
+            <div>
+                <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/OFcVMYOo52U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+                <a class="vidlinks" href="https://www.youtube.com/watch?v=OFcVMYOo52U">Video Source</a>
+            </div>
+        </section><br />
+    </article>
+
+    <!--Personal Rating and Suggestions-->
+    <article>
+        <form class="personal-rating" action="handle_data.php">
+            <!--Personal Rating: Form, Drop-down list, Input list: Scale, Input Type: Radio, Checkbox-->
+            <h2>Personal Rating </h2>
+            <p>On a scale of 1-5, how easy were these recipes to follow?</p>
+                <input list="scale">
+                <datalist id="scale">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                </datalist><br />
+            
+            <p>Rate Recipes in terms of time efficiency:</p>
+                <input type="radio" name="time" value="longx2" /> Too Long <br />
+                <input type="radio" name="time" value="long" /> Long <br />
+                <input type="radio" name="time" value="ok" /> Decent <br>
+                <input type="radio" name="time" value="fast" /> Quick <br><br />
+            
+            <p>Check all that apply:</p>
+                <input type="checkbox" name="outcome" value="again" /> I would make one of these recipes again <br />
+                <input type="checkbox" name="outcome" value="great" /> The end result tasted great <br />
+                <input type="checkbox" name="outcome" value="recommend" /> I would recommend this site to a friend <br />
+                <input type="checkbox" name="outcome" value="suggest" /> I have suggestions that would improve these recipes <br /><br />
+           
+            <p>Rate your overall experience using these recipes</p>
+                <div>
+                    <p>Low
+                        <input type="range" id="rating" name="rating" value="lowhigh" />High <br />
+                    </p>
+                </div>
+           
+            <p>How confident are you in your cooking skills now?</p>
+                <select class="survey" name="Skill">
+                    <option value="not confident">Not confident at all</option>
+                    <option value="ok">Getting the hang of it</option>
+                    <option value="confident">Decently confident</option>
+                    <option value="very confident">Very confident</option>
+                </select><br/><br/>
+       
+            <p class="sgst"><b>Suggestions? </b></p>
+                <div>
+                    <textarea name="message" row="20" cols="30"></textarea><br/><br/>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <button type="button" onclick="alert('What did the caveman order at the cafeteria?... a club sandwich!')">Click me for a joke</button><br/>
+                </div>
+        </form>
+    </article>
+
+    <footer>
+        <p>Copyright © 2022 CU Chefs. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

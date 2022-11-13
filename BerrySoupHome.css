@@ -1,0 +1,183 @@
+/* Navigation */
+
+nav
+{
+    text-align: center;
+    margin-right: 70px;
+}
+
+.navbar 
+{
+    background-color: white;
+    margin-top: auto;
+    position: relative;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a, .navbtn, .dropbtn
+{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* The dropdown container, CSS Overflow */
+.dropdown
+{
+    display: inline-block; 
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown, .dropbtn, .navbtn
+{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbtn a:hover, .dropdown-content a:hover 
+{
+    background-color: white;
+    color: lightblue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a 
+{
+    color: #333;
+    font-size: 13px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float:none;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover 
+{
+    background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+    display: inline-block;
+}
+
+/* Navigation ends */
+
+body
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    opacity: 1;
+}
+
+.Images a:hover
+{
+    color: lightblue;
+}
+
+.AllImages
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+img
+{
+    opacity: 0.75;
+    filter: alpha (opacity=50); 
+}
+
+img:hover
+{
+    filter: alpha(opacity=100);
+    opacity:1;
+}
+
+/* create 4 equal columns that sit next to eachother */
+.ImagesD
+{
+    flex: 47.7%;
+    max-width: 47.7%;
+    padding: 0 4px;
+}
+
+.ImagesM
+{
+    flex:15%;
+    max-width: 15%;
+    padding: 0 4px;
+}
+
+.ImagesD img, .ImagesM img
+{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px)
+{
+    .ImagesD, .ImagesM
+    {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .ImagesD, .ImagesM
+    {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+footer
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+    overflow: auto; 
+    top: 40px;
+    position: relative;
+    color: #333;
+}
