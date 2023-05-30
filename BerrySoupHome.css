@@ -104,6 +104,11 @@ body
     opacity: 1;
 }
 
+.h1
+{
+    text-align: center;
+}
+
 .Images a:hover
 {
     color: lightblue;
