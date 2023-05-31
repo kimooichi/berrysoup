@@ -121,12 +121,17 @@ p
     color: #333;
 }
 
-#Instagram
+#Contact
 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 35px;
+}
+
+#icon
+{
+    padding: 10px;
 }
 
 /* :::::INPUT ONCE ABLE TO MAKE INTERACTIVE WITH JAVASCRIPT:::::
