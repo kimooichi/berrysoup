@@ -126,16 +126,16 @@ div.AllImages
     justify-content: center;
 }
 
-img
+.Wallpaper
 {
-    opacity: 0.75;
-    filter: alpha (opacity=50); 
+    filter: brightness(100%);
+    transition: 0.3s;
 }
 
-img:hover
+.Wallpaper:hover
 {
-    filter: alpha(opacity=100);
-    opacity:1;
+    filter: brightness(70%);
+    transition: 0.3s;
 }
 
 /* create 4 equal columns that sit next to eachother */
