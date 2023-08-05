@@ -170,9 +170,15 @@ div.AllImages
 
 @media screen and (max-width: 800px)
 {
-    .ImagesD, .ImagesM
+    .ImagesD
     {
         flex: 100%;
+        max-width: 100%;
+    }
+
+    .ImagesM
+    {
+        flex: 40%;
         max-width: 100%;
     }
 }
