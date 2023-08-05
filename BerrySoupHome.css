@@ -178,7 +178,7 @@ div.AllImages
 
     .ImagesM
     {
-        flex: 40%;
+        flex: 30%;
         max-width: 100%;
     }
 }
