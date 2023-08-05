@@ -98,7 +98,9 @@ body
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding: 30px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    opacity: 1;
 }
 
 h1
