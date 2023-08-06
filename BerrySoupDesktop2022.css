@@ -136,8 +136,6 @@ div.Images
 	box-sizing: border-box;
 
 	position: relative;
-	margin-right: 5px;
-	margin-left: 5px;
 }
 
 /* Show only 2 images per row on screens 800x or smaller */
