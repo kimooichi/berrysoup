@@ -13,7 +13,7 @@ nav
     margin-top: auto;
     position: relative;
     width: 100%;
-    font-family: 'Gaegu', cursive;
+    font-family: 'Gaegu', sans-serif;
 }
 
 /* Links inside the navbar */
@@ -91,7 +91,7 @@ nav
 
 body
 {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Gaegu', sans-serif;
     margin: 0;
 }
 
@@ -120,7 +120,7 @@ h1
 {
     text-align: center;
     color: rgb(149, 204, 220);
-    font-family: 'Gaegu', cursive;
+    font-family: 'Gaegu', sans-serif;
     font-size: 45px;
     font-weight: 800;
     margin-top: -10px;
@@ -203,7 +203,7 @@ div.AllImages
 footer
 {
     text-align: center;
-    font-family: 'Gaegu', cursive;
+    font-family: 'Gaegu', sans-serif;
     font-size: 16px;
     width: 100%;
     height: 60px;
