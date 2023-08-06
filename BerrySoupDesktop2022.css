@@ -95,10 +95,11 @@ body
 
 #logo
 {
-    display: block;
+  display: block;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
+    padding-top: 30px;
     opacity: 1;
 }
 
