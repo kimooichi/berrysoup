@@ -2,6 +2,7 @@
 
 nav
 {
+    margin-top: 8em;
     text-align: center;
     margin-right: 70px;
 }
@@ -12,14 +13,14 @@ nav
     margin-top: auto;
     position: relative;
     width: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gaegu', cursive;
 }
 
 /* Links inside the navbar */
 .navbar a, .navbtn, .dropbtn
 {
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1.5px;
     color: #333;
     text-align: center;
@@ -90,8 +91,18 @@ nav
 
 body
 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gaegu', cursive;
     margin: 0;
+}
+
+#logoNav
+{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 #logo
@@ -102,12 +113,17 @@ body
     margin-bottom: 10px;
     padding-top: 30px;
     opacity: 1;
+    text-align: center;
 }
 
 h1
 {
     text-align: center;
     color: rgb(149, 204, 220);
+    font-family: 'Gaegu', cursive;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: -10px;
 }
 
 .Images a:hover
@@ -149,7 +165,7 @@ div.AllImages
 
 .ImagesM
 {
-    flex: 13.4%;
+    flex: 13.3%;
     min-width: 15%;
     padding: 0 4px;
 }
@@ -187,13 +203,13 @@ div.AllImages
 footer
 {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
+    font-family: 'Gaegu', cursive;
+    font-size: 16px;
     width: 100%;
-    height: 40px;
+    height: 60px;
     overflow: auto; 
     top: 40px;
     position: relative;
-    color: #333;
+    color: rgb(149, 204, 220);
 }
 
