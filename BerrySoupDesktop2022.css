@@ -128,7 +128,7 @@ h1
 div.Images
 {
     display: block;
-	float: left;
+    float: left;
     text-align: center;
     overflow: hidden;
 
@@ -136,6 +136,8 @@ div.Images
 	box-sizing: border-box;
 
 	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 /* Show only 2 images per row on screens 800x or smaller */
