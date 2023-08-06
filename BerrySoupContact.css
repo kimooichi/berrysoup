@@ -133,13 +133,6 @@ h2
     font-size: 20px;
 }
 
-p
-{
-    text-align: center;
-    font-size: 13px;
-    color: #333;
-}
-
 #Contact
 {
     display: flex;
