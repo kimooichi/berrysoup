@@ -30,9 +30,7 @@
     
     <!--Logo here-->
     <div id="logoNav">
-        <a href="index.html">
-            <img id=logo onmouseenter="hoverLogo()" onmouseleave="logo()" src="Images/BerrySoupNewLogo.png" alt="logo" width="120" height="103">
-        </a>
+        <img id=logo class="topBtn" onmouseenter="hoverLogo()" onmouseleave="logo()" src="Images/BerrySoupNewLogo.png" alt="logo" width="120" height="103">
     </div>
 
     <!--Navigation: Home, Desktop, Mobile, About me, Contact-->
@@ -102,10 +100,25 @@
     <footer>
         <p>Copyright © 2022 BerrySoup. All Rights Reserved</p>
     </footer>
-    <script>
+   <script>
         $(window).on('load', function () {
           $('#loading').hide();
         }) 
+        
+        var btn = $('.topBtn');
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop()) {
+            btn.addClass('show');
+                } else {
+            btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({scrollTop:0});
+        });
     </script>
 </body>
 </html>
